@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+	width: 90%;
+	max-width: 500px;
+	margin: 5% auto;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.4); 
+	border-radius: 10px;
+	padding: 5vh 5vw;
+}
+
+h1 {
+	margin-bottom: 2vh;
+	font-size: 1.9em;
+}
+
+#temperature {
+	font-size: 2em;
+}
+
+#windIcon {
+	margin: 4vh auto 3vh auto;
+	width: 35px;
+}
+
+button {
+	font-size: inherit;
+	font-family: inherit;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding: 2vh 5%;
+	margin-top: 5vh;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff; 
+	border-radius: 10px;
+	transition: background-color 0.4s ease;
+}
+
+button:active,
+button:focus,
+button:hover {
+	background-color: rgba(0,0,0,0.8);
+	outline: none;
+}
+
+@media screen and (min-width:500px) {
+	.container {
+		margin: 8vh auto;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	#weatherIcon {
+		margin: 2vh auto;
+	}
+
+	#temperature {
+		font-size: 2.8em;
+	}
+
+	#windIcon {
+		margin: 6vh auto 3vh auto;
+	}
+
+	button {
+		margin-top: 10vh;
+	}
+
+}
